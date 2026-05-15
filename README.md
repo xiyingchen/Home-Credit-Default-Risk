@@ -29,6 +29,10 @@ The main prediction task is:
 
 The dataset includes multiple tables related to loan applications and customer credit history.
 
+Raw data is not included in this repository due to file size limits.
+
+Please download the Home Credit Default Risk dataset from Kaggle and place the files in: https://www.kaggle.com/competitions/home-credit-default-risk/data
+
 Main data sources include:
 
 - `application_train.csv`: Main training dataset with applicant information and target label
@@ -229,16 +233,6 @@ The main challenges in this project were:
 
 ```text
 Home-Credit-Default-Risk-Modeling/
-│
-├── data/
-│   ├── application_train.csv
-│   ├── application_test.csv
-│   ├── bureau.csv
-│   ├── bureau_balance.csv
-│   ├── previous_application.csv
-│   ├── installments_payments.csv
-│   ├── credit_card_balance.csv
-│   └── POS_CASH_balance.csv
 │
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb

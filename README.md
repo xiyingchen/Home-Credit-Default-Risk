@@ -31,7 +31,7 @@ The dataset includes multiple tables related to loan applications and customer c
 
 Raw data is not included in this repository due to file size limits.
 
-Please download the Home Credit Default Risk dataset from Kaggle and place the files in: https://www.kaggle.com/competitions/home-credit-default-risk/data
+Please download the Home Credit Default Risk dataset from the Kaggle competition page: https://www.kaggle.com/competitions/home-credit-default-risk/data
 
 Main data sources include:
 
@@ -232,7 +232,10 @@ The main challenges in this project were:
 ## Project Structure
 
 ```text
-Home-Credit-Default-Risk-Modeling/
+Home-Credit-Default-Risk/
+│
+├── data/
+│   └── README.md
 │
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
@@ -252,4 +255,5 @@ Home-Credit-Default-Risk-Modeling/
 │   └── feature_importance.csv
 │
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore

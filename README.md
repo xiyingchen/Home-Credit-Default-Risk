@@ -33,6 +33,8 @@ Raw data is not included in this repository due to file size limits.
 
 Please download the Home Credit Default Risk dataset from the Kaggle competition page: https://www.kaggle.com/competitions/home-credit-default-risk/data
 
+If you already have the downloaded files locally and want a **separate GitHub repository** for the raw CSVs under your own account, follow `raw_data_publish/README.md`.
+
 Main data sources include:
 
 - `application_train.csv`: Main training dataset with applicant information and target label

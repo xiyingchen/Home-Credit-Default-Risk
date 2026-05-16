@@ -68,6 +68,13 @@ The target variable is:
 
 ### 1. Data Understanding
 
+Runnable artifacts live under:
+
+- [`notebooks/01_data_understanding.ipynb`](notebooks/01_data_understanding.ipynb)
+- [`src/data_understanding.py`](src/data_understanding.py)
+
+Place the downloaded competition CSV files in `data/raw/` (or edit `preferred=` inside the notebook). The helpers locate `application_train.csv`, infer dtypes from prefix reads, estimate missing-value rates via sampling by default (switch to full scans when needed), chunk-count rows for accurate totals on large tables, and summarize `TARGET` balance plus duplicate IDs.
+
 First, I reviewed the structure of the dataset, including the number of rows, columns, missing values, data types, and target distribution.
 
 Key checks included:
